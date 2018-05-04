@@ -1,0 +1,19 @@
+{
+    "name": "acrobat/package-installer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeroen Thora",
+            "email": "jeroenthora@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Acrobat\\PackageInstaller\\": "src/"
+        }
+    },
+    "require": {
+        "composer-plugin-api": "^1.1"
+    }
+}
